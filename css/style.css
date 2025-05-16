@@ -24,6 +24,7 @@ body {
   text-align: center;
   color: #FFF;
   background: #000000 url('../img/FC3_BG.jpg');
+  background-attachment: fixed; /* faz com q a imagem de fundo nao se mova com a rolagem do site */
   font-family: CreamCake, serif;
 }
 
@@ -63,6 +64,8 @@ audio{
   font-size: 1.8em;
 }
 
+
+/* MAPA DO JOGO */
 .mapa_jogo {
   height: auto;
   width: 100%;
@@ -87,7 +90,7 @@ audio{
 .area {
   position: absolute;
   border: 2px solid #ffffff;
-  background-color: rgba(180, 180, 180, 0); /* semitransparente */
+  background-color: rgba(180, 180, 180, 0);
   cursor: pointer;
   transition: opacity 0.2s;
 }
@@ -111,15 +114,5 @@ audio{
   width: 48%;
   height: 35%;
 }
-
-
-/*audio,*/
-/*canvas,*/
-/*iframe,*/
-/*img,*/
-/*svg,*/
-/*video {*/
-/*  vertical-align: middle;*/
-/*}*/
-
+/* FIM DO MAPA DO JOGO */
 
