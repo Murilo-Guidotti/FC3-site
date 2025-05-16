@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'AYHU';
+  src: url('../../../assets/fonts/Are You Hung Up.ttf');
+}
+@font-face {
+  font-family: 'HB';
+  src: url('../../../assets/fonts/HaydonBrush_PERSONAL_USE.ttf');
+}
+@font-face {
+  font-family: 'TWr';
+  src: url('../../../assets/fonts/Triumph wheels rough.ttf');
+}
+@font-face {
+  font-family: 'CreamCake';
+  src: url('../../../assets/fonts/Cream Cake.ttf');
+}
+
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #FFF;
+  background: #000000;
+  background-attachment: fixed; /* faz com q a imagem de fundo nao se mova com a rolagem do site */
+  font-family: CreamCake, serif;
+}
+
+.mapa_jogo {
+  height: auto;
+  width: 100%;
+
+  max-width: 720px;
+  max-height: 506px;
+}
+
+.mapa-container {
+  position: relative;
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+}
+
+.mapa-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.area {
+  position: absolute;
+  border: 2px solid #ffffff;
+  background-color: rgba(180, 180, 180, 0);
+  /*cursor: pointer;*/
+  transition: opacity 0.5s;
+}
+
+.area:hover {
+  transition: background-color 0.2s;
+  background-color: rgba(91, 91, 91, 0.3);
+}
+
+/* Superior left of the island */
+#sup-left {
+  top: 15%;
+  left: 5%;
+  width: 50%;
+  height: 45%;
+}
+
+/* Superior right of the island */
+#sup-right {
+  top: 15%;
+  left: 58%;
+  width: 40%;
+  height: 45%;
+}
+
+/*Lower left of the island*/
+#low-right {
+  top: 65%;
+  left: 58%;
+  width: 18%;
+  height: 15%;
+}
+
+
+/*Lower left of the island*/
+#low-left {
+  top: 65%;
+  left: 5%;
+  width: 50%;
+  height: 45%;
+}
